@@ -1,0 +1,38 @@
+my-ecommerce-app/
+├── public/            # Static files
+│   ├── images/        # Images folder
+│   │   ├── logo.png
+│   │   ├── carousel/  # Carousel images
+│   │   │   ├── slide1.jpg
+│   │   │   ├── slide2.jpg
+│   │   │   └── slide3.jpg
+│   │   └── products/  # Product images
+│   └── favicon.ico
+├── src/               # Application code
+│   ├── app/           # App Router directory
+│   │   ├── cart/      # Cart route
+│   │   │   └── page.js
+│   │   ├── login/     # Login route
+│   │   │   └── page.js
+│   │   ├── products/  # Products routes
+│   │   │   ├── page.js        # Products list
+│   │   │   └── [id]/          # Dynamic product route
+│   │   │       └── page.js
+│   │   ├── layout.js          # Root layout
+│   │   ├── page.js            # Homepage
+│   │   └── themeregistry.js   # Your theme configuration
+│   ├── components/    # Shared components
+│   │   ├── ui/        # UI components
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── ImageSlider.jsx
+│   │   └── domain/    # Business-specific components
+│   │       ├── ProductCard.jsx
+│   │       └── CartItem.jsx
+│   ├── lib/           # Utility functions and shared code
+│   │   └── utils.js
+│   └── styles/        # CSS modules or other styles
+│       └── globals.css
+├── next.config.js
+├── package.json
+└── README.md
